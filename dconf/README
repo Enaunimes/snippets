@@ -1,0 +1,12 @@
+cat > /etc/dconf/profile/user << EOF
+user-db:user
+system-db:local
+EOF
+
+mkdir /etc/dconf/db/local.d
+mv this_directory/* /etc/dconf/db/local.d
+rm /etc/dconf/db/local.d/README
+
+dconf update
+
+# Finally, login and logout

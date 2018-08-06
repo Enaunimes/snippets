@@ -1,0 +1,12 @@
+# https://wiki.archlinux.org/index.php/Xterm
+
+XTerm*termName: xterm-256color
+XTerm*locale: true
+XTerm*metaSendsEscape: true
+
+XTerm*foreground: #d0d0d0
+XTerm*background: #121212
+
+XTerm*faceName: Monospace:size=10:antialias=true
+XTerm*cjkWidth: true
+XTerm*faceNameDoublesize: WenQuanYi Micro Hei:size=10:antialias=true

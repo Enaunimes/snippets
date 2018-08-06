@@ -1,0 +1,6 @@
+[org/freedesktop/tracker/miner/files]
+
+enable-monitors=false
+index-on-battery=false
+index-recursive-directories=['']
+index-single-directories=['']
