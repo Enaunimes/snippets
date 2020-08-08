@@ -12,15 +12,16 @@
 
 (setq backup-inhibited t)
 
-(set-foreground-color "gray80")
-(set-background-color "gray14")
+;(set-foreground-color "gray80")
+;(set-background-color "gray14")
 
 (add-to-list 'default-frame-alist
-	     '(font . "Consolas-12"))
+	     '(font . "Cascadia Mono Light"))
 
 ;; Source Han Serif CN 12 for CJK characters.
 (set-fontset-font t 'han
-                  (font-spec :family "Source Han Sans CN Medium"))
+                  (font-spec :family "Source Han Mono SC L"
+                             :size 18))
 
 (setq fill-column 78)
 
@@ -83,4 +84,4 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- )
+ '(org-default ((t (:family "Source Han Mono SC")))))
